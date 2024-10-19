@@ -1,0 +1,144 @@
+body{
+  background: linear-gradient(to bottom, rgb(9, 94, 163), rgb(56, 155, 236), rgb(172, 219, 241));
+  overflow: hidden;
+}
+h1{
+    font-family: "Times New Roman", Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(237, 243, 241);
+    position: relative;
+    left: 490px;
+    width: 300px;
+}
+h3{
+    background-color: rgb(237, 243, 241);
+    position: relative;
+    left: 500px;
+    width: 265px;
+}
+ul{
+    font-family: "Times New Roman", Times, serif;
+    position: relative;
+    left: 430px;
+    top: 300px;
+}
+.about_me{
+    position: relative;
+    left: 140px;
+    bottom: 18px;
+}
+.contact{
+    position: relative;
+    left: 300px;
+    bottom: 35px;
+}
+.Picture img{
+    width: 20%;
+    position:relative;
+    left: 500px;
+    bottom: 150px;
+}
+.form0{
+    height: 20px;
+    padding: 0px 10px 0px 10px;
+    background-color: rgb(0, 0, 0);
+    width: 70px;
+    position: relative;
+    left: 590px;
+    bottom: 190px;
+}
+
+.hover-button:hover {
+  background-color: #45a049; /* Change the background color on hover */
+  color: #fff; /* Ensure the text color stays white */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a subtle shadow effect */
+  
+}
+
+/* Make the section take up the whole viewport height */
+#about {
+  height: 100vh; /* 100% of the viewport height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center content vertically */
+  align-items: center; /* Center content horizontally */
+  position: relative; 
+  }
+  
+  #about h2, #about p {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  #contact {
+    height: 100vh; /* 100% of the viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+    padding: 20px;
+    margin: 300px;
+
+  }
+  
+  #contact h2, #about p {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+
+  #skills {
+    height: 100vh; /* 100% of the viewport height */
+    display: flex;
+    font-size: 20px;
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+    padding: 20px;
+    margin: 300px;
+  }
+  
+  #skills h2, #about p {
+    margin: 0;
+    padding: 30px;
+    text-align: center;
+  }
+
+.img2 img{
+    border-style: groove;
+    border-radius: 25px;
+    width: 150px;
+    height: 200px;
+    position: relative;
+    bottom: 185px;
+    left: -40px;
+}
+
+.btn {
+  display: inline-block;
+  height: 50px;
+  width: 300px;
+  position: relative;
+  top: -80px;
+  left: 487px;
+  font-size: 25px;
+  background-color: #242c25;
+  color: white;
+  text-align: center;
+  line-height: 50px;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #3c4f41;
+  transform: scale(1.05);
+}
+#contact h4{
+  color: black;
+  font-size: 20px;
+  margin: 10px;
+}
+
